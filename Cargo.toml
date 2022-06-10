@@ -26,4 +26,4 @@ libradicl = { git="https://github.com/COMBINE-lab/libradicl", branch="develop", 
 clap = "~2.34.0"
 sysinfo = "0.21.1"
 tempfile = "3"
-cmake = "=0.1.45" # Avoid issues with older cmake and --parallel; https://github.com/rust-lang/cmake-rs/issues/131
+cmake = "=0.1.45" # Avoid issues with older cmake and non-existent --parallel option; https://github.com/rust-lang/cmake-rs/issues/131
